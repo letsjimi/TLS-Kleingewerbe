@@ -1,0 +1,17 @@
+{
+  "project_name": "TLS-Website",
+  "phase": "implement",
+  "tasks": [
+    {"id": "T01", "description": "Projekt-Initialisierung (package.json, configs, Docker)", "files_touched": [], "status": "in_progress", "retry_count": 0},
+    {"id": "T02", "description": "Navigation + Hero", "files_touched": [], "status": "pending", "retry_count": 0},
+    {"id": "T03", "description": "Services + Gallery", "files_touched": [], "status": "pending", "retry_count": 0},
+    {"id": "T04", "description": "About + Testimonials + Contact", "files_touched": [], "status": "pending", "retry_count": 0},
+    {"id": "T05", "description": "Footer + ScrollReveal + Content-JSON", "files_touched": [], "status": "pending", "retry_count": 0},
+    {"id": "T06", "description": "Responsive + Build + Docker + Git", "files_touched": [], "status": "pending", "retry_count": 0}
+  ],
+  "current_task_id": "T01",
+  "aggregated_errors": [],
+  "global_retry_count": 0,
+  "last_action": "start_chunk_1",
+  "timestamp": "2026-05-01T14:57:00+02:00"
+}

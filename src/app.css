@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  ::selection {
+    background: rgba(0, 240, 255, 0.3);
+    color: #F0F0F5;
+  }
+}
