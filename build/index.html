@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    
+		<link rel="modulepreload" href="/TLS-Kleingewerbe/app/immutable/entry/start.3c286caa.js">
+		<link rel="modulepreload" href="/TLS-Kleingewerbe/app/immutable/chunks/scheduler.ba4dd0f0.js">
+		<link rel="modulepreload" href="/TLS-Kleingewerbe/app/immutable/chunks/singletons.03e2eee9.js">
+		<link rel="modulepreload" href="/TLS-Kleingewerbe/app/immutable/entry/app.bbbd2747.js">
+		<link rel="modulepreload" href="/TLS-Kleingewerbe/app/immutable/chunks/index.64112532.js">
+  </head>
+  <body data-sveltekit-preload-data="hover" class="bg-tls-bg text-tls-text font-body antialiased">
+    <div style="display: contents">
+			<script>
+				{
+					__sveltekit_zmo37i = {
+						assets: "/TLS-Kleingewerbe",
+						base: "/TLS-Kleingewerbe",
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/TLS-Kleingewerbe/app/immutable/entry/start.3c286caa.js"),
+						import("/TLS-Kleingewerbe/app/immutable/entry/app.bbbd2747.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+  </body>
+</html>
